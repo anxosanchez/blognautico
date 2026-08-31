@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "deploy:gh-pages": "npm run deploy",
+    "deploy:firebase": "npm run build && firebase-tools deploy --only hosting"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
