@@ -56,7 +56,7 @@ export default function Hero({ onNavigate, onOpenRegister }) {
       {/* Background Cinematic Naval Vessel Image with Atmospheric Overlays */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/images/hero_vessel_cinematic.jpg" 
+          src={`${import.meta.env.BASE_URL}images/hero_vessel_cinematic.jpg`}
           alt="Buque de investigación y carga descarbonizado con velas de rotor en la Ría de Vigo" 
           className="w-full h-full object-cover object-center scale-105 animate-[pulse_10s_ease-in-out_infinite] opacity-35 filter brightness-90 contrast-110"
         />
@@ -191,7 +191,7 @@ export default function Hero({ onNavigate, onOpenRegister }) {
             >
               <div className="h-24 -mx-4 -mt-4 mb-3 overflow-hidden relative">
                 <img 
-                  src="/images/ops_cold_ironing_port.jpg" 
+                  src={`${import.meta.env.BASE_URL}images/ops_cold_ironing_port.jpg`}
                   alt="OPS Cold Ironing Terminal" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 filter brightness-90"
                 />
@@ -214,7 +214,7 @@ export default function Hero({ onNavigate, onOpenRegister }) {
             >
               <div className="h-24 -mx-4 -mt-4 mb-3 overflow-hidden relative">
                 <img 
-                  src="/images/hero_vessel_cinematic.jpg" 
+                  src={`${import.meta.env.BASE_URL}images/hero_vessel_cinematic.jpg`}
                   alt="Vectores de propulsión verde" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 filter brightness-90"
                 />
@@ -237,7 +237,7 @@ export default function Hero({ onNavigate, onOpenRegister }) {
             >
               <div className="h-24 -mx-4 -mt-4 mb-3 overflow-hidden relative">
                 <img 
-                  src="/images/offshore_wind_csov.jpg" 
+                  src={`${import.meta.env.BASE_URL}images/offshore_wind_csov.jpg`}
                   alt="Buque CSOV y eólica offshore" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 filter brightness-90"
                 />
@@ -260,7 +260,7 @@ export default function Hero({ onNavigate, onOpenRegister }) {
             >
               <div className="h-24 -mx-4 -mt-4 mb-3 overflow-hidden relative">
                 <img 
-                  src="/images/fishing_fleet_modern.jpg" 
+                  src={`${import.meta.env.BASE_URL}images/fishing_fleet_modern.jpg`}
                   alt="Flota Pesquera y Gran Sol" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 filter brightness-90"
                 />
